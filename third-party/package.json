@@ -1,0 +1,27 @@
+{
+  "name": "import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "flow": "flow",
+    "build": "babel src/ -d lib/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.0.3",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-flow": "6.23.0",
+    "eslint": "4.13.1",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-flowtype": "2.40.1",
+    "eslint-plugin-import": "2.8.0",
+    "flow-bin": "0.61.0"
+  },
+  "dependencies": {
+    "express": "4.16.2"
+  }
+}
